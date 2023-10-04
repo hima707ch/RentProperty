@@ -1,0 +1,194 @@
+.card-cont {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  position: relative;
+  margin: 4rem auto;
+  border-radius: 1rem;
+  background-color: rgb(246, 246, 255);
+  color: rgb(54, 54, 54);
+  font-family: Graphik, Helvetica, sans-serif, Lucida Sans Unicode;
+}
+
+.card-cont > img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.above-image{
+  position: absolute;
+  width : 80%;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sale{
+  font-size: 1.1rem;
+  padding : 0.6rem 0.9rem;
+  background-color: white;
+  border : 0px;
+  margin : 0rem;
+}
+
+.fav {
+  border: 0px;
+  color: rgb(60, 60, 255);
+  padding : 0.5rem;
+  background-color: rgb(210, 210, 236);
+  transition: all 0.5s;
+}
+.fav:hover {
+  background-color: rgb(38, 38, 255);
+  color: white;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 1rem;
+}
+
+.loc{
+  font-size: 1.15rem;
+}
+
+.title{
+  font-size: 1.45rem;
+  margin: 0px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+}
+
+li{
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  margin: 0.6rem;
+}
+
+.rent{
+  color :rgb(49, 49, 234);
+  font-size: 1.4rem;
+  margin: 0px;
+  align-self: center;
+}
+
+.rent::after{
+  content: "/month";
+  font-size: 1rem;
+  color: black;
+}
+
+.line {
+  width: 100%;
+  height: 0px;
+  border-bottom: 1px dotted rgb(201, 213, 255);
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+button{
+  padding : 0.85rem 1.35rem;
+  border-radius: 7rem;
+  border-color: rgb(70, 70, 255);
+  font-size: 1.3rem;
+  color : rgb(70, 70, 255);
+  background: transparent;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+
+.read:hover{
+  background-color:rgb(70, 70, 255);
+  color : white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.details-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.details-head > p {
+  margin: 5px 0px;
+}
+
+.year {
+  font-size: 1.1rem;
+  border: 1px dotted blue;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.spec {
+  width: 100%;
+}
+
+.spec > p {
+  display: inline-block;
+  width: 50%;
+  margin: 5px 0px;
+}
+
+
+
+.action {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.select {
+  background-color: rgb(38, 38, 255);
+  color: white;
+}
+
+.rent-now {
+  border: 0px;
+  background-color: rgb(94, 115, 255);
+  border-radius: 0.9rem;
+  padding: 0.4rem 1rem;
+  font-size: 1rem;
+  color: white;
+  transition: all 0.6s;
+}
+
+.rent-now:hover {
+  transform: scaleY(1.2);
+  background-color: rgb(38, 38, 255);
+  cursor: pointer;
+}

@@ -1,0 +1,101 @@
+.house-cont {
+  max-width: 85rem;
+  margin: auto;
+  padding: 1rem 5rem;
+  background-color: #bbd6ff;
+  font-family: Graphik, Helvetica, sans-serif, Lucida Sans Unicode;
+}
+
+.houses {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-cont {
+  padding: 1.5rem 2.5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.nav-cont>button{
+  margin : 1rem 1.25rem;
+  color : rgb(44, 44, 255);
+}
+.nav-cont>button:hover{
+  background-color: rgb(44, 44, 255);
+  color : white;
+}
+
+.icon2 {
+  color: white;
+}
+.search {
+  border: 0px;
+  padding: 0.5rem 1rem;
+  background-color: black;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.home {
+  cursor: pointer;
+}
+
+input {
+  border: 0px;
+  padding: 0.7rem 1.3rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  width: 17rem;
+  transition: all 0.5s;
+  margin-bottom: 0.5rem;
+  align-self: center;
+}
+
+.sug-cont {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+}
+
+.sug {
+  background-color: white;
+  padding: 1rem;
+  margin: 0px;
+  border-bottom: 1px solid black;
+  font-size: 1.25rem;
+  padding: 0.7rem 1rem;
+  transition: all 0.25s;
+}
+.sug:hover {
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.pages {
+  align-self: center;
+}
+
+.pages > button {
+  border: 0px;
+  border-radius: 0.6rem;
+  font-size: 1rem;
+  padding: 0.5rem 0.7rem;
+  margin: 0.2rem 0.5rem;
+  cursor: pointer;
+  box-shadow: 1px 4px 8px rgba(2, 2, 5, 0.2);
+  transition: all 0.5s;
+}
+
+.pages > button:hover {
+  background-color: rgb(41, 41, 41);
+  color: white;
+}
+
+.footer > p {
+  font-size: 1.4rem;
+}
